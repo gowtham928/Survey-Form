@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+  
+  <h1 id="title">Farming Tips</h1>
+  <body>
+  <p id="description">Thank you for participating in the Farming Tips course! Your feedback is essential in helping us evaluate the course structure, quality of content, and hands-on value. Please take a few minutes to complete this short survey. Your honest responses will help us enhance future training programs for our farming community.</p>
+  <h2>Course Completion Survey</h2>
+  <p>Help Us Improve Future Agricultural Workshops!</p>
+  <form id="survey-form">
+    <fieldset>
+      <legend>Personal Info</legend>
+      
+        <label id="name-label" for="name">Name:</label>
+        <input required id="name" name="name" type="text" placeholder="Enter your name">
+
+        <label id="email-label" for="email">Email:</label>
+        <input required id="email" name="email" type="email" placeholder="Enter your email">
+
+        <label id="number-label" for="number">Age (optional):</label>
+        <input id="number" name="age" type="number" min="18" max="40" placeholder="Enter your age">
+    </fieldset>
+    <p>What is your current profession?</p>
+    <select id="dropdown">
+      <option> select the profession</option>
+      <option> Student</option>
+      <option> bussiness</option>
+      <option> other</option>
+    </select>
+    <p>Would you recommend freeCodeCamp to a friend?</p>
+    <input id="recommend" name="click" type="radio"  value="click"/>
+    <label for="recommend">Yes</label>
+    <input id="maybe-recommend"  name="click" type="radio"  value="click"/>
+    <label for="maybe-recommend">May Be</label>
+    <input id="notsure-recommend"  name="click" type="radio"  value="click"/>
+    <label for="notsure-recommend">Not Sure</label>
+
+    <p>What is your rating?</p>
+    <select id="dropdown">
+      <option> Rating</option>
+      <option> 5</option>
+      <option> 4</option>
+      <option> 3</option>
+    </select>
+    <section>
+    <p> What are the plants you would like to plant in future?</p>
+    <input id="plant" type="checkbox" value="checkbox">
+    <label for="plant">Tomato</label>
+    <input id="plant" type="checkbox" value="checkbox">
+    <label for="plant">carrot</label>
+    <input id="plant" type="checkbox" value="checkbox">
+    <label for="plant">onion</label>
+    <input id="plant" type="checkbox" value="checkbox">
+    <label for="plant">pumpkin</label>
+    <input id="plant" type="checkbox" value="checkbox">
+    <label for="plant">lady finger</label>
+    <input id="plant" type="checkbox" value="checkbox">
+    <label for="plant">brinjal</label>
+    <input id="plant" type="checkbox" value="checkbox">
+    <label for="plant">potato</label>
+  </section>
+
+  <label for="feedback"> Add your suggestion?</label>
+  <textarea id="feedback" name="feedback" rows="4" cols="50" placeholder="Enter your text here..."></textarea>
+  <button id="submit" type="submit">submit</button>
+ 
+  </form>
+  </body>
+</html>
